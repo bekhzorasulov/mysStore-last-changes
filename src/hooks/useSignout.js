@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-import { auth } from "../fireBase/firebaseConfig";
+import { auth } from "../firebase/firebaseConfig";
 import { signOut } from "firebase/auth";
 
 export const useSignOut = () => {
