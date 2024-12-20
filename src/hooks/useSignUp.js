@@ -1,5 +1,5 @@
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { auth } from "../fireBase/firebaseConfig";
+import { auth } from "../firebase/firebaseConfig";
 import { toast } from "react-toastify";
 
 import { useGlobalContext } from "./useGlobalContext";
